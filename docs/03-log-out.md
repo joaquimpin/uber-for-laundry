@@ -13,7 +13,7 @@ Here’s the code for the route on our lines 101-115 in routes/auth.js:
 
 
 router.get('/logout', (req, res, next) => {
-  if (!req.session.currentUser) {
+  if (!req.session.currentUser) { 
     res.redirect('/');
     return;
   }

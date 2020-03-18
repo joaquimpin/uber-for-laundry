@@ -8,7 +8,7 @@ Now that we’ve registered, we need to be able to log in. The route for the log
     });
   });
 });
-
+ 
 
 router.get('/login', (req, res, next) => {
   res.render('auth/login', {

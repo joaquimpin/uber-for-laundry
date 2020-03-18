@@ -10,7 +10,7 @@ We have to make sure to wire our routes/laundry.js with the app.js. We do this b
 ```js
 // ... inside of app.js
 const authRoutes = require('./routes/auth');
-const laundryRoutes = require('./routes/laundry');
+const laundryRoutes = require('./routes/laundry'); 
 
 // ...
 
